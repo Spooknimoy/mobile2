@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import MinMax from './componentes/semana01/MinMax';
 import Biscoito from './componentes/semana04/Biscoito';
+import Cronometro from './componentes/semana04/Cronometo';
 
 
 
@@ -10,7 +11,7 @@ export default function App() {
     
     
     <View style={styles.container}>
-      <Biscoito></Biscoito>
+     <Cronometro></Cronometro>
     </View>
 
   );
